@@ -1,0 +1,14 @@
+{
+  "name": "create-image",
+  "version": "1.0.0",
+  "description": "A terminal tool to generate designated images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "images"
+  ],
+  "author": "edge00",
+  "license": "MIT"
+}
