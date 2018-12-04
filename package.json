@@ -1,14 +1,21 @@
 {
   "name": "create-image",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "A terminal tool to generate designated images.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "create-image": "./index.js",
+    "ci": "./index.js"
+  },
   "keywords": [
     "images"
   ],
   "author": "edge00",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.21.0"
+  }
 }
