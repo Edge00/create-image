@@ -19,7 +19,10 @@
     "type": "git",
     "url": "https://github.com/Edge00/create-image.git"
   },
+  "resolutions": {
+    "minipass": "2.7.0"
+  },
   "dependencies": {
-    "sharp": "^0.21.0"
+    "sharp": "^0.23.4"
   }
 }
